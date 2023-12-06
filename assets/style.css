@@ -1,0 +1,177 @@
+body {
+    background: #CFE7FF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+.header {
+    display: flex;
+    background: #2F6798;
+    border: 0;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.header .group {
+    margin-right: 1em;
+    margin-left: auto;
+    width: 20vw;
+    color: #000;
+}
+
+.header .group label {
+    margin: 0;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    padding: 1em;
+    background: #2F6798;
+    margin-right: 2em;
+    border-radius: 1em;
+    width: 20vw;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    background: #094780;
+    color: #fff;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.content {
+    width: 80vw;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1em;
+    column-gap: 1em;
+}
+
+.col {
+    width: 100%;
+}
+
+.card {
+    background: #fff;
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    width: 25%;
+}
+
+.card h3 {
+    color: #094780;
+    font-size: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.block {
+    background: #fff;
+    padding: 1em 2em;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+
+.block h3 {
+    color: #094780;
+    font-size: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.block p {
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.block2 {
+    background: #fff;
+    padding: 1em 2em;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    height: auto;
+}
+
+#top_pt_by_unqpv, #top_cntry_by_unqpv {
+    height: 100%;
+}
+
+#bar-sumsession-month {
+    width: 100%;
+}
+
+.latestyearsession {
+    height: 40vh;
+    width: auto;
+    align-items: stretch;
+}
+
+.tbl-per-device {
+    margin-bottom: 1em;
+}
+
+.dflex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.frow {
+    flex-direction: row;
+}
+
+.fcol {
+    flex-direction: column;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w100 {
+    width: 100%;
+}
